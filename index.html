@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Minh Nguyen Studios — graphic design portfolio featuring advertising, branding, print, promotional and editorial work." />
+  <title>Minh Nguyen Studios — Graphic Design Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header" id="top">
+      <a class="brand" href="#top" aria-label="Minh Nguyen Studios home">
+        <span class="brand-mark"><img src="assets/logo.png" alt="Minh Nguyen Studios logo" /></span>
+      </a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="nav-cta">Contact</a>
+      </nav>
+      <button class="menu-button" aria-label="Open menu" aria-expanded="false">Menu</button>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <div class="eyebrow"><span></span> Graphic Designer · Advertising · Brand Visuals</div>
+          <h1>Clean design.<br><em>Strong impact.</em></h1>
+          <p>I create polished advertising and visual design that helps brands look sharper, communicate faster, and stand out in print and digital.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">View Selected Work</a>
+            <a class="text-link" href="#contact">Start a project <span>↗</span></a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="hero-card hero-card-a"><img src="assets/new-balance.jpg" alt="" /></div>
+          <div class="hero-card hero-card-b"><img src="assets/happy-nails.png" alt="" /></div>
+          <div class="hero-card hero-card-c"><img src="assets/wolvyn.jpg" alt="" /></div>
+          <div class="orange-dot"></div>
+          <div class="blue-ring"></div>
+        </div>
+      </section>
+
+      <section class="intro-strip">
+        <p>Selected work across <strong>restaurants</strong>, <strong>retail</strong>, <strong>wellness</strong>, <strong>real estate</strong>, <strong>events</strong> and <strong>local brands</strong>.</p>
+      </section>
+
+      <section class="work-section" id="work">
+        <div class="section-heading">
+          <div>
+            <span class="section-kicker">01 / Selected Work</span>
+            <h2>Commercial design<br>with range.</h2>
+          </div>
+          <p>A mix of print advertisements, promotional campaigns, event pieces, retail creative and brand-forward layouts.</p>
+        </div>
+
+        <div class="filters" aria-label="Portfolio filters">
+          <button class="filter active" data-filter="all">All Work</button>
+          <button class="filter" data-filter="food">Food & Hospitality</button>
+          <button class="filter" data-filter="wellness">Wellness & Beauty</button>
+          <button class="filter" data-filter="retail">Retail</button>
+          <button class="filter" data-filter="business">Business & Community</button>
+        </div>
+
+        <div class="portfolio-grid">
+          <article class="project project-wide" data-category="retail">
+            <button class="project-image" data-image="assets/new-balance.jpg" data-title="New Balance — Retail Promotion">
+              <img src="assets/new-balance.jpg" alt="New Balance promotional advertisement" loading="lazy" />
+              <span class="view-chip">View</span>
+            </button>
+            <div class="project-meta"><h3>New Balance</h3><p>Retail Advertising · Promotional Campaign</p></div>
+          </article>
+
+          <article class="project" data-category="wellness">
+            <button class="project-image" data-image="assets/beem-light-sauna.png" data-title="beem Light Sauna — Grand Opening">
+              <img src="assets/beem-light-sauna.png" alt="beem Light Sauna grand opening advertisement" loading="lazy" />
+              <span class="view-chip">View</span>
+            </button>
+            <div class="project-meta"><h3>Beem Light Sauna</h3><p>Wellness · Grand Opening</p></div>
+          </article>
+
+          <article class="project" data-category="food">
+            <button class="project-image" data-image="assets/blue-agave.jpg" data-title="Blue Agave — Restaurant Promotion">
+              <img src="assets/blue-agave.jpg" alt="Blue Agave restaurant advertisement" loading="lazy" />
+              <span class="view-chip">View</span>
+            </button>
+            <div class="project-meta"><h3>Blue Agave</h3><p>Restaurant · Offer Campaign</p></div>
+          </article>
+
+          <article class="project project-tall" data-category="business">
+            <button class="project-image" data-image="assets/kink-team.png" data-title="Kink Team — Real Estate">
+              <img src="assets/kink-team.png" alt="Kink Team real estate advertisement" loading="lazy" />
+              <span class="view-chip">View</span>
+            </button>
+            <div class="project-meta"><h3>Kink Team Real Estate</h3><p>Real Estate · Brand Advertising</p></div>
+          </article>
+
+          <article class="project" data-category="wellness">
+            <button class="project-image" data-image="assets/happy-nails.png" data-title="Happy Nails — Salon Promotion">
+              <img src="assets/happy-nails.png" alt="Happy Nails salon advertisement" loading="lazy" />
+              <span class="view-chip">View</span>
+            </button>
+            <div class="project-meta"><h3>Happy Nails</h3><p>Beauty · Local Promotion</p></div>
+          </article>
+
+          <article class="project project-wide" data-category="food">
+            <button class="project-image" data-image="assets/saludos.jpg" data-title="Saludos — Weekend Brunch">
+              <img src="assets/saludos.jpg" alt="Saludos weekend brunch advertisement" loading="lazy" />
+              <span class="view-chip">View</span>
+            </button>
+            <div class="project-meta"><h3>Saludos</h3><p>Restaurant · Brunch Campaign</p></div>
+          </article>
+
+          <article class="project" data-category="retail">
+            <button class="project-image" data-image="assets/merle-norman.jpg" data-title="Merle Norman — Cosmetics Promotion">
+              <img src="assets/merle-norman.jpg" alt="Merle Norman cosmetics advertisement" loading="lazy" />
+              <span class="view-chip">View</span>
+            </button>
+            <div class="project-meta"><h3>Merle Norman</h3><p>Beauty Retail · Product Promotion</p></div>
+          </article>
+
+          <article class="project" data-category="food">
+            <button class="project-image" data-image="assets/culvers.jpg" data-title="Culver’s — BOGO Promotion">
+              <img src="assets/culvers.jpg" alt="Culver's promotional advertisement" loading="lazy" />
+              <span class="view-chip">View</span>
+            </button>
+            <div class="project-meta"><h3>Culver’s</h3><p>Restaurant · Promotional Offer</p></div>
+          </article>
+
+          <article class="project project-wide" data-category="wellness">
+            <button class="project-image" data-image="assets/body-sculpting.png" data-title="Body Sculpting Boutique">
+              <img src="assets/body-sculpting.png" alt="Body Sculpting Boutique advertisement" loading="lazy" />
+              <span class="view-chip">View</span>
+            </button>
+            <div class="project-meta"><h3>Body Sculpting Boutique</h3><p>Wellness · Lead Generation</p></div>
+          </article>
+
+          <article class="project" data-category="retail">
+            <button class="project-image" data-image="assets/de-noche.jpg" data-title="De Noche Jewels">
+              <img src="assets/de-noche.jpg" alt="De Noche Jewels advertisement" loading="lazy" />
+              <span class="view-chip">View</span>
+            </button>
+            <div class="project-meta"><h3>De Noche Jewels</h3><p>Jewelry · Minimal Editorial</p></div>
+          </article>
+
+          <article class="project" data-category="business">
+            <button class="project-image" data-image="assets/mary-lee.jpg" data-title="Mary Lee Foundation — Golf Tournament">
+              <img src="assets/mary-lee.jpg" alt="Mary Lee Foundation golf tournament advertisement" loading="lazy" />
+              <span class="view-chip">View</span>
+            </button>
+            <div class="project-meta"><h3>Mary Lee Foundation</h3><p>Nonprofit · Event Promotion</p></div>
+          </article>
+
+          <article class="project" data-category="business">
+            <button class="project-image" data-image="assets/arts-inspire.png" data-title="Arts Inspire — Event Promotion">
+              <img src="assets/arts-inspire.png" alt="Arts Inspire event advertisement" loading="lazy" />
+              <span class="view-chip">View</span>
+            </button>
+            <div class="project-meta"><h3>Arts Inspire</h3><p>Arts & Culture · Event Creative</p></div>
+          </article>
+
+          <article class="project project-wide" data-category="wellness">
+            <button class="project-image" data-image="assets/sava.png" data-title="Sava Face & Body">
+              <img src="assets/sava.png" alt="Sava Face and Body advertisement" loading="lazy" />
+              <span class="view-chip">View</span>
+            </button>
+            <div class="project-meta"><h3>Sava Face & Body</h3><p>Skincare · Healthcare-adjacent Creative</p></div>
+          </article>
+
+          <article class="project" data-category="business">
+            <button class="project-image" data-image="assets/serendipity-labs.jpg" data-title="Serendipity Labs — Coworking">
+              <img src="assets/serendipity-labs.jpg" alt="Serendipity Labs coworking advertisement" loading="lazy" />
+              <span class="view-chip">View</span>
+            </button>
+            <div class="project-meta"><h3>Serendipity Labs</h3><p>Coworking · Location Launch</p></div>
+          </article>
+
+          <article class="project" data-category="retail">
+            <button class="project-image" data-image="assets/wolvyn.jpg" data-title="Wolvyn — Luxury Timepieces">
+              <img src="assets/wolvyn.jpg" alt="Wolvyn luxury timepieces advertisement" loading="lazy" />
+              <span class="view-chip">View</span>
+            </button>
+            <div class="project-meta"><h3>Wolvyn</h3><p>Luxury Retail · Editorial Advertising</p></div>
+          </article>
+
+          <article class="project" data-category="wellness">
+            <button class="project-image" data-image="assets/myeyedr.jpg" data-title="MyEyeDr — Sunglasses Promotion">
+              <img src="assets/myeyedr.jpg" alt="MyEyeDr sunglasses promotional advertisement" loading="lazy" />
+              <span class="view-chip">View</span>
+            </button>
+            <div class="project-meta"><h3>MyEyeDr</h3><p>Optical · Retail Promotion</p></div>
+          </article>
+
+          <article class="project" data-category="business">
+            <button class="project-image" data-image="assets/woodlands-water.jpg" data-title="Woodlands Water — Conservation Campaign">
+              <img src="assets/woodlands-water.jpg" alt="Woodlands Water conservation advertisement" loading="lazy" />
+              <span class="view-chip">View</span>
+            </button>
+            <div class="project-meta"><h3>Woodlands Water</h3><p>Public Service · Conservation Campaign</p></div>
+          </article>
+
+          <article class="project" data-category="retail">
+            <button class="project-image" data-image="assets/seewin.jpg" data-title="Seewin — Kitchen & Bathroom Supply">
+              <img src="assets/seewin.jpg" alt="Seewin kitchen and bathroom supply advertisement" loading="lazy" />
+              <span class="view-chip">View</span>
+            </button>
+            <div class="project-meta"><h3>Seewin</h3><p>Home Retail · Promotional Advertising</p></div>
+          </article>
+
+          <article class="project project-wide" data-category="food">
+            <button class="project-image" data-image="assets/trouvi.jpg" data-title="Trouvi — Gluten Free Cookies">
+              <img src="assets/trouvi.jpg" alt="Trouvi gluten free cookies advertisement" loading="lazy" />
+              <span class="view-chip">View</span>
+            </button>
+            <div class="project-meta"><h3>Trouvi Cookies</h3><p>Food Retail · Coupon Promotion</p></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="about-section" id="about">
+        <div class="about-card">
+          <div class="about-logo"><img src="assets/logo.png" alt="Minh Nguyen Studios logo" /></div>
+          <div class="about-copy">
+            <span class="section-kicker">02 / About</span>
+            <h2>Design that feels clear, useful and finished.</h2>
+            <p>I’m Minh Nguyen, an Austin-based graphic designer with more than a decade of experience in advertising, print, branding, web design, marketing, photography, and illustration.
+
+Currently working in the advertising and publishing industry, I create effective visual solutions for a wide range of businesses while collaborating with sales and creative teams to bring ideas from concept to final production.
+
+My background spans commercial real estate marketing, in-house design, photography, digital campaigns, and print production. I earned my BFA in Communication Design from Texas State University and approach every project with the same goal: create work that looks great, communicates clearly, and serves a purpose.</p>
+            <div class="skills">
+              <span>Advertising</span><span>Print Design</span><span>Layout</span><span>Brand Visuals</span><span>Promotions</span><span>Production Design</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <div>
+          <span class="section-kicker light">03 / Contact</span>
+          <h2>Have a project?<br><em>Let’s make it look good.</em></h2>
+        </div>
+        <div class="contact-copy">
+          <p>Available for freelance advertising, print, promotional and visual design projects.</p>
+          <a class="button button-orange" href="mailto:minhstudios@minhstudios.com">minhstudios@minhstudios.com</a>
+          <small>Replace this email with your preferred contact before publishing.</small>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      </span> Minh Nguyen Studios. All rights reserved.</p>
+      <a href="#top">Back to top ↑</a>
+    </footer>
+  </div>
+
+  <dialog class="lightbox" aria-label="Project preview">
+    <button class="lightbox-close" aria-label="Close preview">×</button>
+    <div class="lightbox-inner">
+      <img src="" alt="" />
+      <p></p>
+    </div>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
